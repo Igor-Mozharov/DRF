@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-api"
+version = "0.1.0"
+description = ""
+authors = ["Igor-Mozharov <r5@ukr.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+djangorestframework = "^3.16.0"
+django-filter = "^25.1"
+drf-spectacular = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
